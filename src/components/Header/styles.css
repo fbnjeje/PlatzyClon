@@ -4,16 +4,36 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: .75rem 1.5rem;
     color: white;
+
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 .logo {}
 
-.nav {
+.header-nav {
+
     display: flex;
-    gap: 20px;
+    gap: 1.5rem;
     list-style: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.header-explorar {
+    margin-right: 25px;
+}
+
+
+.header-button {
+    background: white;
+    border: none;
+    padding: .5rem .75rem;
+    border-radius: 10px;
 }
 
 body {
