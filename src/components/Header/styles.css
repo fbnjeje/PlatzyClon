@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.logo {}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+body {
+    background-color: #13161c;
+}
