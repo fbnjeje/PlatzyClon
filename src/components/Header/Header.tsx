@@ -16,8 +16,9 @@ const Header = () => {
       {/* nav */}
       <view>
         <nav>
-
           <ul className='header-nav'>
+
+            {/* items */}
             <li className='header-explorar pointer'>Explorar</li>
             <li className='header-explorar pointer'>Comunidad <img src={arrowDown} width="15" height="15"></img></li>
             <li className='pointer'>Planes</li>

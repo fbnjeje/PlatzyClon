@@ -1,0 +1,19 @@
+.class-promo {
+    position: relative;
+}
+
+.container-promo {
+    display: block;
+    width: 100%;
+    height: calc(100% + 10px);
+    top: -10px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-color: linear-gradient(90deg, #0AE98A -28.35%, #D4FFED 15.29%, #BF92FF 80.11%);
+    
+}
+.container-promo1{
+    
+}
