@@ -3,4 +3,78 @@
     flex-direction: column;
     margin: 0 auto;
     max-width: 679px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    gap: 1.5rem;
+}
+
+.title {
+    padding-top: 4rem;
+    font-size: 3.25rem;
+    line-height: 3.75rem;
+    text-wrap: wrap;
+}
+
+.title span {
+    color: #0ae98a;
+}
+
+.description {
+    font-size: 1.35rem;
+    line-height: 1.75rem;
+    margin: 0 auto;
+    max-width: 410px;
+    color: #c4c8ce;
+    font-weight: 400;
+    letter-spacing: .013rem;
+    text-wrap: balance;
+}
+
+.coursesSearch {
+    position: relative;
+    max-width: 410px;
+    width: 100%;
+}
+
+.searchLabel {
+    display: block;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.inputAutocomplete {
+    border-radius: .5rem;
+    border: 1px solid #0ae98a;
+    background-color: #0d0f14;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: .16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: .375rem 2.5rem .375rem 1rem;
+    width: 100%;
+}
+
+.searchIconBtn {
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 3.5rem;
+    width: 3rem;
+    padding: 1rem .75rem;
+}
+
+.freeCourses {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .013rem;
+    line-height: 1.5rem;
 }

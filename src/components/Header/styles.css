@@ -31,6 +31,7 @@
 
 .header-button {
     background: white;
+    color: black;
     border: none;
     padding: .5rem .75rem;
     border-radius: 10px;
