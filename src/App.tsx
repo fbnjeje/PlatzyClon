@@ -8,7 +8,14 @@ function App() {
       <div className='App'>
 
         <Header />
+
         <Home />
+        <Header />
+        <Header />
+        <Header />
+        <Header />
+        <Header />
+        <Header />
       </div>
     </>
   )
