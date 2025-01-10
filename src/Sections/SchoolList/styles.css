@@ -3,6 +3,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .75rem;
     padding: 0 1.5rem;
 }

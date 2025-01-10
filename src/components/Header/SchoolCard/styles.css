@@ -1,0 +1,76 @@
+.SchoolCard {
+    list-style: none;
+    max-width: 280px;
+    border-radius: 0.75rem;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.SchoolCard::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #1d2029;
+    background-image: radial-gradient(circle, var(--figure-bg-color, #59a15b) 60%, #1d2029 50%);
+    background-size: 150%;
+    background-position: 102px 58px;
+    background-repeat: no-repeat;
+    filter: blur(40px);
+    opacity: 0.9;
+}
+
+.SchoolCard a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0.75rem;
+    padding: 1rem 0.75rem;
+}
+
+.SchoolCard figure {
+    position: relative;
+    height: 3.5rem;
+    min-width: 3.5rem;
+    display: inline-block;
+}
+
+.SchoolCard figure::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 4rem;
+    z-index: -1;
+    background-color: var(--figure-bg-color);
+    filter: blur(20px);
+    opacity: 1
+}
+
+
+.SchoolCard p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: .25rem;
+    width: 100%;
+}
+
+
+.SchoolCard span:first-child {
+    color: #87909d;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: .9px;
+    text-transform: uppercase;
+}
