@@ -1,0 +1,7 @@
+.Card-Loop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+    flex: grow shrink basis;
+}
