@@ -31,15 +31,34 @@ function CompanyLogoList() {
     ]
     return (
         <div>
-            <article style={{ overflow: 'hidden' }}>
+            <article style={{ display: 'flex', overflow: 'hidden' }}>
 
                 <motion.div
                     initial={{ x: 0 }}
                     animate={{ x: "-100%" }}
-                    transition={{ repeat: Infinity, duration: 2 }}
+                    transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
                     className="Card-Loop"
                     style={{
                         display: 'flex',
+                        whiteSpace: 'nowrap',
+                        flexShrink: 0,
+                        minWidth: 'max-content',
+                    }}
+                >
+                    {[...images].map((image, index) => (
+                        <CardLoop key={index} img={image} />
+                    ))}
+                </motion.div>
+
+
+                <motion.div
+                    initial={{ x: 0 }}
+                    animate={{ x: "-100%" }}
+                    transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
+                    className="Card-Loop"
+                    style={{
+                        display: 'flex',
+                        flexShrink: 0,
                         whiteSpace: 'nowrap',
                         minWidth: 'max-content',
                     }}
