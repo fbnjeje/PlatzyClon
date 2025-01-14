@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+import BtnPrimary from '../../components/BtnPrimary/BtnPrimary'
 
 function GeneratorSection() {
     return (
@@ -9,9 +10,7 @@ function GeneratorSection() {
                 <form action="" className='generator-form'>
                     <textarea className="generator-textarea" placeholder="Quiero crear experiencias de usuario atractivas en la web, escribir y crear contenido"></textarea>
                     <span style={{ display: 'none' }}></span>
-                    <button className='generator-button'>
-                        <span>Generar mi ruta</span>
-                    </button>
+                    <BtnPrimary text='Generar ruta' />
                 </form>
             </div>
         </section>

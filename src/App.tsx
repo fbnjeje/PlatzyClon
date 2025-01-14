@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header/Header'
+import Agenda from './Sections/Agenda/Agenda'
 import CompanyLogoList from './Sections/CompanyLogoList/CompanyLogoList'
 import GeneratorSection from './Sections/Generator/GeneratorSection'
 import Home from './Sections/Home/Home'
@@ -14,6 +15,7 @@ function App() {
         <SchoolList />
         <GeneratorSection />
         <CompanyLogoList />
+        <Agenda />
       </div>
     </>
   )

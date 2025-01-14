@@ -1,0 +1,11 @@
+.button-secondary {
+    max-width: 480px;
+    padding: .75rem 2.5rem !important;
+    color: #0ae98a !important;
+    border: solid #0ae98a !important;
+    border-width: 1px 1px 2px !important;
+    background: #1e2229 !important;
+    background: transparent !important;
+    margin: 0 auto;
+    width: 100%;
+}

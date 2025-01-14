@@ -1,0 +1,19 @@
+.agenda-container {
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.agenda-title {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+}
+
+.agenda-title span {
+    color: #0ae98a;
+}

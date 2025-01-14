@@ -10,7 +10,7 @@ import GrupoSura from '../../assets/brands/GrupoSura.svg'
 import Lenovo from '../../assets/brands/Lenovo.svg'
 import mapfre from '../../assets/brands/mapfre.svg'
 import rappi from '../../assets/brands/rappi.svg'
-import CardLoop from '../../components/Header/CardLoop/CardLoop'
+import CardLoop from '../../components/CardLoop/CardLoop'
 import './styles.css'
 
 
@@ -49,7 +49,6 @@ function CompanyLogoList() {
                         <CardLoop key={index} img={image} />
                     ))}
                 </motion.div>
-
 
                 <motion.div
                     initial={{ x: 0 }}
