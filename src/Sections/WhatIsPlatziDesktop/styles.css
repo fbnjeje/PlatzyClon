@@ -1,0 +1,8 @@
+.WhatIsPlatziDesktop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 517px 580px;
+    justify-content: space-between;
+    align-items: center;
+}

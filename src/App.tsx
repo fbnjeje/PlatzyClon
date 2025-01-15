@@ -5,6 +5,7 @@ import CompanyLogoList from './Sections/CompanyLogoList/CompanyLogoList'
 import GeneratorSection from './Sections/Generator/GeneratorSection'
 import Home from './Sections/Home/Home'
 import SchoolList from './Sections/SchoolList/SchoolList'
+import WhatIsPlatziDesktop from './Sections/WhatIsPlatziDesktop/WhatIsPlatziDesktop'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <GeneratorSection />
         <CompanyLogoList />
         <Agenda />
+        <WhatIsPlatziDesktop />
       </div>
     </>
   )
