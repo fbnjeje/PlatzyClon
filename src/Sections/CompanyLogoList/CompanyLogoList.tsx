@@ -6,13 +6,13 @@ import colsubsidio from '../../assets/brands/colsubsidio.svg'
 import davivienda from '../../assets/brands/davivienda.svg'
 import FundacionGrupoSocial from '../../assets/brands/FundacionGrupoSocial.svg'
 import GrupoExito from '../../assets/brands/GrupoExito.svg'
-import GrupoSura from '../../assets/brands/GrupoSura.svg'
+import GrupoSura from '../../assets/brands/Gruposura.svg'
 import Lenovo from '../../assets/brands/Lenovo.svg'
 import mapfre from '../../assets/brands/mapfre.svg'
 import rappi from '../../assets/brands/rappi.svg'
 import CardLoop from '../../components/CardLoop/CardLoop'
 import './styles.css'
-
+// fix
 
 import { motion } from "framer-motion"
 
