@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 
 import avianca from '../../assets/brands/avianca.svg'
 import bancolombia from '../../assets/brands/bancolombia.svg'

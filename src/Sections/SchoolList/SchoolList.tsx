@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import './styles.css'
 import SchoolCard from '../../components/SchoolCard/SchoolCard.tsx'
 import Classlist from '../../Utils/ClassList.tsx'

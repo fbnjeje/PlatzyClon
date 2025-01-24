@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import './styles.css'
 import BtnPrimary from '../../components/BtnPrimary/BtnPrimary'
 

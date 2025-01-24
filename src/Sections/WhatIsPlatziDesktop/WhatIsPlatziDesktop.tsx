@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import './styles.css'
 import PlatziItemCard from '../../components/PlatziItemCard/PlatziItemCard'
 function WhatIsPlatziDesktop() {
