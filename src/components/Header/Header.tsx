@@ -1,8 +1,8 @@
  ;
 import './styles.css';
-
+// fixed
 import Icon from '../../assets/platzi.svg';
-import arrowDown from '../../assets/arrow-down.svg';
+import arrowDown from '../../assets/arrow-Down.svg';
 const Header = () => {
   return (
     <div className='header'>
