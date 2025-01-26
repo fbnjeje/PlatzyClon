@@ -1,6 +1,8 @@
- 
 import './styles.css'
 import PlatziItemCard from '../../components/PlatziItemCard/PlatziItemCard'
+
+import Learn from '../../Utils/LearnNewList.tsx'
+
 function WhatIsPlatziDesktop() {
     return (
         <div className='WhatIsPlatziDesktop-container'>
@@ -11,7 +13,13 @@ function WhatIsPlatziDesktop() {
                     en linea en america latina
                 </h2>
                 <ul>
-                    <li><PlatziItemCard /></li>
+                    <li>
+                        {
+                            Learn.map((item) =>(
+                                <PlatziItemCard icon={item.icon} label={item.label} />
+                            ))
+                        }
+                    </li>
                     
                 </ul>
             </div>
