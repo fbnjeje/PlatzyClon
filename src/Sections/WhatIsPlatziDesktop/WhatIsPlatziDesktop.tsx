@@ -4,7 +4,7 @@ import PlatziItemCard from '../../components/PlatziItemCard/PlatziItemCard'
 function WhatIsPlatziDesktop() {
     return (
         <div className='WhatIsPlatziDesktop-container'>
-            <div>
+            <div className='WhatIsPlatziDesktop-content-left'>
                 <h2>
                     <span>Somos la autoridad</span>
                     en escalar la educacion
@@ -12,12 +12,7 @@ function WhatIsPlatziDesktop() {
                 </h2>
                 <ul>
                     <li><PlatziItemCard /></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    
                 </ul>
             </div>
             <div></div>
