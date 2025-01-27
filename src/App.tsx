@@ -18,6 +18,7 @@ function App() {
         <CompanyLogoList />
         <Agenda />
         <WhatIsPlatziDesktop />
+        <p> hola JSON</p>
       </div>
     </>
   )
