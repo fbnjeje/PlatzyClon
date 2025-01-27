@@ -1,4 +1,3 @@
-import { i, label } from "motion/react-client";
 
 //svg imported
 
