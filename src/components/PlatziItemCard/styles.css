@@ -3,14 +3,20 @@
     gap: 1rem;
     align-items: center;
     margin-bottom: 1.5rem;
+
 }
 
 .PlatziItemCard-container p {
-    font-weight: 400;
+        font-weight: 500;
         font-size: 1.125rem;
         letter-spacing: -.008rem;
         text-transform: none;
         text-decoration: none;
         line-height: 1.5rem;
-        text-align: center;
+        text-align: start;
+        color: #87909d;
+}
+
+.PlatziItemCard-container p:hover{
+    color: #ffffff;
 }

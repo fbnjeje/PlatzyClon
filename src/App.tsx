@@ -18,7 +18,6 @@ function App() {
         <CompanyLogoList />
         <Agenda />
         <WhatIsPlatziDesktop />
-        <p> hola JSON</p>
       </div>
     </>
   )
@@ -28,5 +27,3 @@ export default App
 
 
 
-
-// holavenecos

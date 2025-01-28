@@ -1,8 +1,5 @@
  
 import './styles.css'
-
-
-
 interface PlatziItemCardProps {
     icon: string;
     label: string;
@@ -10,10 +7,10 @@ interface PlatziItemCardProps {
 
 function PlatziItemCard({ icon, label }: PlatziItemCardProps) {
     return (
-        <div className='PlatziItemCard-container'>
+        <li className='PlatziItemCard-container'>
             <img src={icon} alt=""  width={40} height={40}/>
             <p>{label}</p>
-        </div>
+        </li>
     )
 }
 

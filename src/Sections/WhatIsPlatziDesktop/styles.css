@@ -5,9 +5,40 @@
     grid-template-columns: 517px 580px;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.WhatIsPlatziDesktop-content-left ul{
+    margin-top: 60px;
+    padding-left: 2.5rem;
 }
 
+.WhatIsPlatziDesktop-content-left ul::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 65%;
+    width: 1px;
+    background: linear-gradient(#0f6a48, rgba(15, 106, 72, 0));
+    content: "";
+}
 
 .WhatIsPlatziDesktop-content-left li{
     list-style: none;
+}
+
+.title{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-wrap: balance;
+}
+
+.title span{
+    color: #0ae98a;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    align-items: center;
 }
